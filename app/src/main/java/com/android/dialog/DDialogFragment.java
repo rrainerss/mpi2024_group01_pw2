@@ -66,14 +66,10 @@ public class DDialogFragment extends DialogFragment {
                         // User cancels the dialog.
                     }
                 });
-        // Create the AlertDialog object and return it.
-//        return builder.create();
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_d_dialog, container, false);
     }
 }
