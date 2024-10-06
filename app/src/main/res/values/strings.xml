@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dialog</string>
+    <string name="first_activity">1-st Activity</string>
+    <string name="second_activity">2-nd Activity</string>
+    <string name="go_to_second">Go to 2-nd</string>
+    <string name="back">Back</string>
+    <string name="dialog">Dialog</string>
+    <string name="dialog_title">Group 1 dialog</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="item_one">Item One</string>
+    <string name="item_two">Item Two</string>
+    <string name="item_three">Item Three</string>
+    <string name="ok">OK</string>
+    <string name="close">Close</string>
+</resources>
