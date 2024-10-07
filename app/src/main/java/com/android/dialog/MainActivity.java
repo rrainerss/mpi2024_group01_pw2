@@ -48,11 +48,9 @@ public class MainActivity extends AppCompatActivity {
                             public void onClick(DialogInterface dialog, int which, boolean isChecked) {
                                 if (isChecked) {
                                     Toast.makeText(MainActivity.this, "Checked " + choices[which], Toast.LENGTH_SHORT).show();
-                                    //selectedItems.add(which);
                                 }
                                 else {
                                     Toast.makeText(MainActivity.this, "Unchecked " + choices[which], Toast.LENGTH_SHORT).show();
-                                    //selectedItems.remove(which);
                                 }
                             }
                         });
